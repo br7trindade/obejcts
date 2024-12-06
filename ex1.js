@@ -139,5 +139,22 @@ console.log("\n\n--------")
 
 chaves.forEach(chave => { console.log (chave)})
 console.log("\n\n--------")
-valores.forEach(valor => { console.log (valor)})
-*/
+valores.forEach(valor => { console.log (valor)})*/
+
+/*const pessoas = [
+    {
+      nome: "Ana",
+      idade: 28,
+      profissao: "Engenheira"
+    },
+    {
+      nome: "Carlos",
+      idade: 35,
+      profissao: "Professor"
+    }
+  ];
+  const chaves = Object.keys(pessoas);
+  const valores = Object.values(pessoas);
+
+  keys.foreach(keys => {console.log (keys)})
+  values.foreach(values => {console.log (values)})
